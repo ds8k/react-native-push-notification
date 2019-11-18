@@ -1,7 +1,7 @@
 "use strict";
 
 import { AppState } from "react-native";
-import PushNotificationIOS from "@react-native-community/push-notification-ios";
+import { PushNotificationIOS } from "react-native";
 
 module.exports = {
   state: AppState,
